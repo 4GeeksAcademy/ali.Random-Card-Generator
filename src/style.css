@@ -1,1 +1,45 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  box-sizing: border-box;
+}
+
+.card {
+  text-align: center;
+  display: auto;
+  background: white;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  font-size: 80px;
+  padding: 20px;
+  padding-top: 180px;
+  box-shadow: 2px 2px;
+  border-radius: 5px;
+  position: relative;
+  /* margin-top: 20%; */
+}
+.top-suit {
+  position: absolute;
+  top: 0px;
+  margin-top: -16px;
+  left: 5px;
+  font-size: 80px;
+}
+.bottom-suit {
+  position: absolute;
+  bottom: 5px;
+  margin-bottom: -11px;
+  right: 10px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+
+.button1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4vh;
+  margin-top: 4px;
+  cursor: pointer;
+}
